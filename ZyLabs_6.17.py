@@ -2,15 +2,15 @@ txt = input('Create password: ')
 password = ''
 
 for x in txt:
-    if (x=='i'):
+    if x == 'i':
         password += '!'
-    elif (x=='a'):
+    elif x == 'a':
         password += '@'
-    elif (x=='m'):
+    elif x == 'm':
         password += 'M'
-    elif (x=='B'):
-        password +='8'
-    elif (x=='o'):
+    elif x == 'B':
+        password += '8'
+    elif x == 'o':
         password += '.'
     else:
         password += x
